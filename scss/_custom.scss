@@ -20,12 +20,15 @@ body{
         transition: border 0.2s;
         border-bottom: 1px solid white;
     }
+    .nav-link{
+        color: rgba(255, 255, 255, 0.9) !important;
+    }
 }
 
 #showcase{
     background: url("../images/showcase.jpg") bottom center / cover no-repeat;
     // min-height: 750px;
-    min-height: 500px;
+    min-height: 600px;
     position: relative;
     #header {
         z-index: 2;
